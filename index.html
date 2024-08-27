@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="file/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="file/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="file/favicon-16x16.png">
+	<title>ToDo</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="display-4 mb-2">ToDo</div>
+		<div class="h4 mb-5">список задач</div>
+
+		<!-- List of tasks -->
+		<div class="card mb-4">
+			<ul id="tasksList" class="list-group list-group-flush">
+			</ul>
+		</div>
+
+		<div class="card bg-light" >
+			<div class="card-header">Добавить новую задачу</div>
+			<div class="card-body">
+				<form id="form">
+					<div class="form-group">
+						<input type="text" class="form-control" id="taskInput" placeholder="Текст задачи" required>
+						<small id="emailHelp" class="form-text text-muted">What we do, how much time we spend, what result we get.</small>
+					</div>
+					<button type="submit" class="btn btn-primary  btn-lg active">Добавить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
